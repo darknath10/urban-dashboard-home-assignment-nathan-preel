@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  mapConfig: {
+    tileLayerTemplateUrl: 'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+    initialCenter: [0, 0] as [number, number],
+    initialZoomLevel: 2,
+  }
 };
 
 /*

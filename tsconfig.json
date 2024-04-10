@@ -23,7 +23,10 @@
       "dom"
     ],
     "paths": {
-      "@lba/core": ["src/app/core/index.ts"]
+      "@lba/common/*": ["src/app/common/*"],
+      "@lba/core": ["src/app/core/index.ts"],
+      "@lba/locations-bookmarks": ["src/app/locations-bookmarks/index.ts"],
+      "@lba/map": ["src/app/map/index.ts"]
     }
   },
   "angularCompilerOptions": {
